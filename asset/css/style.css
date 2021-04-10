@@ -210,6 +210,7 @@ nav
     font-size: 1.2rem;
     font-weight: 400;
 }
+/* riga verticale e colonna sinistra  */
 .lineVert  a
 {
     display: block;
@@ -219,6 +220,7 @@ nav
     font-size: 16px;
     font-weight: 500;
 }
+/* sezione delle 4 colonne  */
 .cluster , .optimizer 
 {
     padding-right: 2rem;
@@ -254,6 +256,59 @@ nav
 .one_click p, .global p
 {
     color: #7B859E;
+}
+/* sezione designed terza sezione (main) */
+.designed
+{
+    width: 100%;
+    background-color: #F3F5F9;
+}
+.desig_title h2
+{
+    color: #031C4E;
+    font-size: 2rem;
+}
+.desig_title
+{
+    text-align: center;
+    padding-top: 3rem;
+}
+.desig_title p
+{
+    color: #586686;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 2.5rem;
+}
+.hero_image 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_image img
+{
+    height: 420px;
+}
+.hero_image i
+{
+    font-size: 40px;
+    color: #031C4E;
+    margin: 2rem;
+}
+.create
+{
+    text-align: center;
+}
+.create i
+{
+    color: #006AFF;
+    margin: 1.5rem 0;
+}
+.create p
+{
+    color: #4E5E81;
+    margin: 2rem 0;
 }
 
 
@@ -314,6 +369,31 @@ nav
     {
         text-align: left;
     }
+     .desig_title
+    {
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .desig_title h2
+    {
+        font-size: 1.1rem;
+    }
+    .desig_title p
+    {
+        font-weight: 300;
+        font-size: 0.9rem;
+        margin: .5rem 0 1rem;
+    }
+    .hero_image img
+    {
+        height: 200px;
+    }
+    .hero_image i
+    {
+        display: none;
+    }
+    
+    
 }
 
 /* visualizzazione tablet  */
@@ -353,6 +433,30 @@ nav
     .sponsor img
     {
     height: 60px;
+    }
+    .desig_title
+    {
+    text-align: center;
+    padding-top: 2rem;
+    }
+    .desig_title h2
+    {
+    font-size: 1.5rem;
+    }
+    .desig_title p
+    {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 1rem 0 1.5rem;
+    }
+    .hero_image img
+    {
+    height: 300px;
+    }
+    .hero_image i
+    {
+    font-size: 30px;
+    margin: 1.5rem;
     }
 }
 
