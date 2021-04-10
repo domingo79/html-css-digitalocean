@@ -2,15 +2,6 @@ body
 {
     font-family: 'Roboto', sans-serif;
 }
-
-
-/* creo una classe utility per flex_row */
-.flex_row
-{
-    display: flex;
-}
-
-
 /* comunity property link  e li */
 a
 {
@@ -35,33 +26,35 @@ li
 /* nav divisa in logo info login ******/
 nav
 {   
-    height: 54px;
-    justify-content:flex-start;
-    align-items: center;
+    height: 50px;
+    line-height: 50px;
 }
+
 .logo img
 {
     height: 28px;
-}
-
-.logo
-{
-    width: 25%;
-    text-align: left;
+    vertical-align: middle;
+    line-height: 50px;
 }
 .info
 {   
-    width: 40%;
     text-align: center;
     color: #1C325F;
     font-weight: 500;
 }
 .login
 {
-    width: 35%;
     text-align: right;
     color: #1C325F;
     font-weight: 500;
+}
+/* menu hamburger per visualizzazioni tablet e smart */
+#menu
+{
+    display: none;
+    color: #086EFF;
+    line-height: 50px;
+    margin-right: 2rem;
 }
 /* ///nav***************************** */
 
@@ -69,8 +62,8 @@ nav
 .simplest
 {
     width: 100%;
-    height: 450px;
     background-image: url(../img/bg-banner-home.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -96,7 +89,6 @@ nav
     border-radius: 10px;
     background-color: #fff;
     padding: 15px;
-    margin-top: 4.5rem;
     text-align: center;
 }
 .form_brutto h3
@@ -168,3 +160,206 @@ nav
     text-decoration: underline;
 }
 /* ////form  colonna destra header */
+
+/* main a sezioni  */
+/* sezione banner prima section di (main) */
+.banner
+{
+    width: 100%;
+    background-color: #f3f5f9;
+    text-align: center;
+    padding: 3rem 0;
+}
+.box_flex
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.banner  h5
+{
+    color: #6F7B97;
+    font-size: 1.1rem;
+}
+.banner  a
+{
+    color: #2E83FE;
+    font-weight: 500;
+}
+.sponsor
+{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.sponsor img
+{
+    height: 70px;
+}
+
+/* sezione deploy seconda sezione di (main) */
+.dep_loy h2
+{
+    color: #031C4E;
+    font-size: 2rem;
+}
+.dep_loy  p
+{
+    padding: 1rem 1.5rem 4rem;
+    color: #7B859E;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.lineVert  a
+{
+    display: block;
+    padding: 10px 5px;
+    border-left: 1px solid #cdcdcd;
+    color: #7B859E;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cluster , .optimizer 
+{
+    padding-right: 2rem;
+}
+.one_click , .global 
+{
+   padding-right: 2rem;
+   padding-top: 1rem;
+}
+
+.cluster img, .optimizer img
+{
+    margin: 1rem 0 1rem;
+}
+.one_click img, .global img
+{
+    margin: 1rem 0 1rem;
+}
+.cluster h4, .optimizer h4
+{
+    color: #031C4E;
+    font-size: 1.2rem;
+}
+.one_click h4, .global h4
+{
+    color: #031C4E;
+    font-size: 1.2rem;
+}
+.cluster p, .optimizer p
+{
+    color: #7B859E;
+}
+.one_click p, .global p
+{
+    color: #7B859E;
+}
+
+
+
+
+/* titolo h5 #6F7B97  */
+/* h6 titolo blu #2E83FE */
+
+/* sfondo banner #f3f5f9 */
+
+/* visualizzazione smart  */
+@media screen and (max-width: 767px)
+{
+    .info, .login
+    {
+        display: none;
+    }
+    #menu
+    {
+        display: inline;
+    }
+    .logo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo img
+    {
+        height: 20px;
+        padding-left: 1rem;
+    }
+    .simplest h1
+    {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .simplest p
+    {
+        padding: 2px 0;
+        margin-right: 10px;
+        font-size: 0.9rem;
+    }
+    .sponsor
+    {
+        flex-direction: column;
+    }
+    .sponsor img
+    {
+        height: 100px;
+    }
+    .cluster , .optimizer 
+    {
+        text-align: left;
+    }
+    .one_click , .global 
+    {
+        text-align: left;
+    }
+}
+
+/* visualizzazione tablet  */
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .info, .login
+    {
+        display: none;
+    }
+    #menu
+    {
+        display: inline;
+    }
+    .logo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .logo img
+    {
+        height: 24px;
+        padding-left: 1rem;
+    }
+    .simplest h1
+    {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .simplest p
+    {
+        padding: 5px 0;
+        margin-right: 30px;
+        font-size: 1rem;
+    }
+    .sponsor img
+    {
+    height: 60px;
+    }
+}
+
+/* visualizzazione deskstop  */
+@media screen and (min-width: 992px)
+{}
+
+
+
+

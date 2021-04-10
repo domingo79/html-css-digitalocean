@@ -13,57 +13,66 @@
 </head>
 <body>
 
-        
+
     <header>
 
-        <nav class="container_xs flex_row">
-                <!-- logo  -->
-                <div class="logo">
-                    <img src="./asset/img/logo.png" alt="logo">
-                   
-                </div>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <!-- nav colonna logo  -->
+                    <div class="col-2 col-12-md col-12-xs">
+                        <div class="logo">
+                            <img src="./asset/img/logo.png" alt="logo">
+                            <i id="menu" class="fas fa-bars "></i>
+                        </div>
+                    </div>
+                    <!-- nav colonna centrale   -->
+                    <div class="col-5">     
+                        <div class="info">
+                            <a href="#">
+                                Products  
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                Customers
+                            </a>
+                            <a href="#">
+                                Community
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                Pricing
+                            </a>
+                        </div>
+                    </div>
 
-                <div class="info ">
-                <!-- nav bar centrale -->
-                    <a href="#">
-                        Products  
-                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        Customers
-                    </a>
-                    <a href="#">
-                        Community
-                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        Pricing
-                    </a>
-                </div>
-
-                <div class="login">
-                    <!-- nav bar di destra e pulsante log  -->
-                    <a href="#">
-                        Docs
-                    </a>
-                    <a href="#">
-                        Support
-                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        Login
-                    </a>
-                    <a href="#" id="btn_vuoto">
-                        Sing Up
-                    </a>
-                </div>
-        </nav>
+                    <!-- nav colonna destra -->
+                    <div class="col-5 col-1-md col-1-xs">
+                        <div class="login">
+                            <a href="#">
+                                Docs
+                            </a>
+                            <a href="#">
+                                Support
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                             </a>
+                            <a href="#">
+                                Login
+                            </a>
+                            <a href="#" id="btn_vuoto">
+                                Sing Up
+                            </a>                   
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </nav>  
 
         <div class="simplest">
-            <div class="titolo_header container_xs">
+            <div class="container">
                 <div class="row">
                     <!-- colonna sinistra di heder  -->
-                    <div class="col-7">
+                    <div class="col-7 pd-6-r pd-3-b col-7-md pd-1-l-md pd-3-r-md col-12-xs pd-1-b-xs">
                         <h1>
                             The simplest cloud plarform for developers & teams
                         </h1>
@@ -72,7 +81,7 @@
                         </p>
                     </div>
                     <!-- colonna destra di heder  -->
-                    <div class="col-5">
+                    <div class="col-5 pd-4-t col-5-md pd-2-t-md pd-2-r-md pd-2-b-md col-12-xs pd-2-b-xs pd-1-l-xs pd-1-r-xs">
                         <div class="form_brutto">
                             <h3>Deploy your app in seconds.</h3>
                             <h3>Get started now</h3>
@@ -104,14 +113,114 @@
                 </div>
       
             </div>
-        
 
         </div>
     </header>
         <!-- //heder -->
     <main>
-        <section class="banner"></section>
-        <section class="deploy"></section>
+                <!-- sezione partnes -->
+        <section class="banner">
+
+                <div class="box_flex">
+                    <h5>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h5>
+                    <div class="sponsor">
+                        <a href="#"><img src="./asset/img/docker.svg" alt=""></a>
+                        <a href="#"><img src="./asset/img/gitlab.svg" alt=""></a>
+                        <a href="#"><img src="./asset/img/slack.svg" alt=""></a>
+                        <a href="#"><img src="./asset/img/hashicorp.svg" alt=""></a>
+                        <a href="#"><img src="./asset/img/hashicorp.svg" alt=""></a>
+                        <a href="#"><img src="./asset/img/splunk.svg" alt=""></a>
+                        </div>
+                        <a href="#">
+                            View Customer stories
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                </div>
+       
+            
+                <!-- //sezione partnes -->
+        </section>
+                <!-- sezione deploy -->
+        <section class="deploy">
+            <div class="container_xs">
+                <div class="row">
+                    <div class="col-12-lg pd-4-t txt-c">
+                        <div class="dep_loy">
+                            <h2>Deploy and scale seamlessly</h2>
+                            <p>
+                                Our optimized configuration process saves your team time when running and scaling distributed
+                                applications, AI & machine learning workloads, hosted services, client websites, or CI/CD
+                                environments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                        <!-- colonna sinista con riga verticale -->
+                <div class="row lineVert">
+                    <div class="col-1--lg-offset col-1-lg col-1-md col-12-xs">
+                        <a href="#">Deploy</a>
+                        <a href="#">Manage</a>
+                        <a href="#">Secure</a>
+                        <a href="#">Scale</a>
+                        <a href="#">Monitor</a>
+                    </div>
+                            <!-- colonna sinistra top  -->
+                    <div class="col-2-lg-offset col-8-lg col-8-md col-12-xs">
+                        <div class="row">
+                            <div class="col-6-lg col-6-md col-12-xs">
+                                <div class="cluster">
+                                    <img src="./asset/img/cluster-deploy.svg" alt="">
+                                    <h4>Cluster deployments</h4>
+                                     <p>
+                                        Provision multiple Droplets (virtual machines) in seconds with our control, CLI, or directly
+                                        against our API.
+                                    </p>
+                                </div>                            
+                            </div>
+                                    <!-- colonna destra top  -->
+                            <div class="col-6-lg col-6-md col-12-xs">
+                                <div class="optimizer">
+                                    <img src="./asset/img/optimized-compute.svg" alt="">
+                                    <h4>Optimized compute types</h4>
+                                    <p>
+                                        Get the compute resources you need with Standard or optimized Droplets.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                                <!-- colonna sinistra down  -->
+                        <div class="row">
+                            <div class="col-6-lg col-6-md col-12-xs">
+                                <div class="one_click">
+                                    <img src="./asset/img/one-click.svg" alt="">
+                                    <h4>One-click apps</h4>
+                                    <p>
+                                        Skip the install and configuration process with pre-build open source image supporting Rails,
+                                        Cassandra, Docker, and more.
+                                    </p>
+                                </div>
+                            </div>
+                                    <!-- colonna destra down  -->
+                            <div class="col-6-lg col-6-md col-12-xs ">
+                                <div class="global">
+                                    <img src="./asset/img/global.svg" alt="">
+                                    <h4>Global availability</h4>
+                                    <p>
+                                        Deploy to any of our data center regions around the world.
+                                    </p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        
+        </section>
+            <!-- /////sezione deploy -->
+
+
         <section class="designed"></section>
         <section class="the_feature"></section>
         <section class="Service_customer"></section>
