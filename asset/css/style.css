@@ -310,7 +310,91 @@ nav
     color: #4E5E81;
     margin: 2rem 0;
 }
-
+/* sezione feature quarta sezione (main) */
+.the_feature
+{
+    background-color: #fff;
+    width: 100%;
+}
+.title_feature h2
+{
+    padding: 3rem 0 2rem;
+    color: #031C4E;
+    font-size: 2rem;
+    text-align: center;
+}
+/* colonna sinista feature  */
+.predictable
+{
+    padding: 0 1rem;
+}
+.predictable img
+{
+    padding-bottom: 1rem;
+}
+.predictable h4
+{
+    color: #031C4E;
+    padding-bottom: 1rem;
+}
+.predictable p
+{
+    color: #4E5E81;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+.predictable a
+{
+    color: #006AFF;
+}
+/* colonna centrale feature  */
+.world
+{
+    padding: 0 1rem;
+}
+.world img
+{
+    padding-bottom: 1rem;
+}
+.world h4
+{
+    color: #031C4E;
+    padding-bottom: 1rem;
+}
+.world p
+{
+    color: #4E5E81;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+.world a
+{
+    color: #006AFF;
+}
+/* colonna destra  reliable  */
+.reliable
+{
+    padding: 0 1rem;
+}
+.reliable img
+{
+    padding-bottom: 1rem;
+}
+.reliable h4
+{
+    color: #031C4E;
+    padding-bottom: 1rem;
+}
+.reliable p
+{
+    color: #4E5E81;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+.reliable a
+{
+    color: #006AFF;
+}
 
 
 
