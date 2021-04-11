@@ -533,8 +533,84 @@ nav
     box-shadow: 1px 1px 5px #d4e0f1;
 }
 /* ////main  */
-
-
+/* footer  */
+footer
+{
+    width: 100%;
+    background-color: #031C4E;
+}
+/* colonna 1 copyright footer  */
+.copyright img
+{
+    height: 50px;
+    padding: .5rem 0;
+}
+.copyright > span
+{
+    display: block;
+    color: #7B869E;
+}
+.copyright > span > i
+{
+    padding: 5px;
+}
+.all_reserved
+{
+    color: #7F89A0;
+    font-weight: 600;
+}
+.all_reserved i
+{
+    font-size: 0.8rem;
+}
+/* colonna 2 company footer  */
+.company h3
+{
+    color: #fff;
+    padding-bottom: 0.3rem;
+}
+.company > span
+{
+    display: block;
+    color: #9EA6B8;
+    padding: 0.25rem 0;
+}
+/* colonna 3 productor footer  */
+.productor h3
+    {
+    color: #fff;
+    padding-bottom: 0.3rem;
+    }
+.productor > span
+    {
+    display: block;
+    color: #9EA6B8;
+    padding: 0.25rem 0;
+    }
+/* colonna 4 community footer  */
+.community h3
+    {
+    color: #fff;
+    padding-bottom: 0.3rem;
+    }
+.community > span
+    {
+    display: block;
+    color: #9EA6B8;
+    padding: 0.25rem 0;
+    }
+/* colonna 5 support footer  */
+.support h3
+    {
+    color: #fff;
+    padding-bottom: 0.3rem;
+    }
+.support > span
+    {
+    display: block;
+    color: #9EA6B8;
+    padding: 0.25rem 0;
+    }
 
 
 /* visualizzazione smart  */
@@ -613,12 +689,20 @@ nav
     {
         display: none;
     }
+    .Service_customer > .container
+    {
+        margin-left: 20px;
+    }
     .Service_customer h2
     {
     font-size: 1rem;
     text-align: center;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
+    }
+    footer > .container
+    {
+        margin-left: 20px;
     }
     
     
@@ -686,6 +770,10 @@ nav
     font-size: 30px;
     margin: 1.5rem;
     }
+    .Service_customer > .container
+    {
+        margin-left: 20px;
+    }
     .Service_customer h2
     {
     font-size: 1.4rem;
@@ -693,11 +781,20 @@ nav
     padding-top: 3rem;
     padding-bottom: 1.5rem;
     }
+    footer > .container
+    {
+        margin-left: 20px;
+    }
 }
 
 /* visualizzazione deskstop  */
 @media screen and (min-width: 992px)
-{}
+{
+    footer > .container
+    {
+        margin-left: 20px;
+    }
+}
 
 
 
