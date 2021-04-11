@@ -256,6 +256,7 @@ nav
 .one_click p, .global p
 {
     color: #7B859E;
+    padding-bottom: 3rem;
 }
 /* sezione designed terza sezione (main) */
 .designed
@@ -395,13 +396,51 @@ nav
 {
     color: #006AFF;
 }
+/* sezione service_customer quinta sezione (main) */
+.Service_customer
+{
+    width: 100%;
+    background: linear-gradient(90deg, #0046C3 0%, #00229D 95.38%);
+}
+.Service_customer h2
+{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.codice
+{
+    color: #DDE4F4;
+    padding: 5px;
+    border-bottom: 2px solid whitesmoke;
+    line-height: 20px;
+}
+.nazione
+{
+    color: #B9C7E9;
+    font-size: .8rem;
+    padding: 5px;
+    border-bottom: 2px solid whitesmoke;
+    line-height: 20px;
+}
+.test a
+{
+    display: inline-block;
+    color: #07b7d7;
+    font-size: .7rem;
+    text-align: right;
+    padding: 5px;
+    border-bottom: 2px solid whitesmoke;
+    line-height: 20px;
+}
+.test i
+{
+    margin: 0 10px;
+}
 
 
-
-/* titolo h5 #6F7B97  */
-/* h6 titolo blu #2E83FE */
-
-/* sfondo banner #f3f5f9 */
 
 /* visualizzazione smart  */
 @media screen and (max-width: 767px)
@@ -479,6 +518,13 @@ nav
     {
         display: none;
     }
+    .Service_customer h2
+    {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    }
     
     
 }
@@ -544,6 +590,13 @@ nav
     {
     font-size: 30px;
     margin: 1.5rem;
+    }
+    .Service_customer h2
+    {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
     }
 }
 
