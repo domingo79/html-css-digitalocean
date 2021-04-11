@@ -510,7 +510,29 @@ nav
     font-size: 0.8rem;
     padding: 2rem 0 3rem;
 }
-
+/* sezione get-started settima sezione (main) */
+.get_started
+{
+    width: 100%;
+    background: linear-gradient(90deg, #0046C3 0%, #00229D 95.38%);
+    text-align: center;
+}
+.get_started h2
+{
+    font-size: 2rem;
+    color: white;
+    padding: 2rem 0 2.5rem;
+}
+.get_started > a
+{
+    background-color: #fff;
+    color: #0B72FF;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 1px 1px 5px #d4e0f1;
+}
+/* ////main  */
 
 
 
