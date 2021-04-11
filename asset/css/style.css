@@ -439,6 +439,79 @@ nav
 {
     margin: 0 10px;
 }
+/* sezione development sesta sezione (main) */
+.development
+{
+    width: 100%;
+    background-color: #F3F5F9;
+}
+.titolo_development h2
+{
+    color: #031C4E;
+    font-size: 2rem;
+    padding: 3rem 0;
+    text-align: center;
+}
+.development_flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.development_flex > i
+{
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+.etichetta
+{
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 3rem;
+}
+.etichetta img
+{
+    height: 40px;
+}
+.etichetta h3
+{
+    padding-top: 1.5rem;
+    color: #63708D;
+    white-space: wrap
+}
+.rick
+{
+    display: inline-block;
+    color: #223863;  
+    font-weight: 600;
+    padding-top: .5rem;
+}
+.co_funder
+{
+    display: inline-block;
+    color: #223863;  
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+.etichetta p{
+    color: #227DFF;
+    font-weight: 500;
+}
+.etichetta p > i
+{
+    margin: 0 0.5rem;
+}
+.pallini
+{
+    color: #006AFF;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem 0 3rem;
+}
+
+
 
 
 
